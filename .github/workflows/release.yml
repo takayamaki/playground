@@ -1,7 +1,6 @@
 name: create prod tag
 on:
-  - workflow_dispatch
-  - repository_dispatch
+  workflow_dispatch
 jobs:
   build:
     name: Create prod
